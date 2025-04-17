@@ -44,7 +44,8 @@ This project implements a **custom Expectation-Maximization (EM) R package** for
 2.  **Install required R packages**
 
 ``` bash
-install.packages(c("R6", "caret", "Rtsne"))
+pkgs <- readLines("requirements.txt")
+install.packages(pkgs)
 ```
 
 3.  **Run EM on Iris dataset**
