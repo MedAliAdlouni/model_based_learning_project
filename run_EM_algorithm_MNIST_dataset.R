@@ -6,6 +6,7 @@ library(MyGMMPackage)
 
 load("data/mnist.RData")
 
+
 # Split data into training and testing sets
 set.seed(123)
 
