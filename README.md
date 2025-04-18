@@ -13,6 +13,20 @@ This project implements a **custom Expectation-Maximization (EM) R package** for
 
 ------------------------------------------------------------------------
 
+## 📁 Project Structure
+
+| Path                        | Description                                   |
+|-----------------------------|-----------------------------------------------|
+| `MyGMMPackage_0.1.0.tar.gz` | Main R package implementing the EM algorithm  |
+| `R/`                        | All R scripts for loading data and running EM |
+| `data/`                     | Input datasets (Iris, MNIST)                  |
+| `results/`                  | Output plots, confusion matrices, etc.        |
+| `docs/`                     | Project report and description (PDF format)   |
+| `renv.lock`                 | Reproducible environment snapshot             |
+| `requirements.txt`          | List of required R packages                   |
+
+------------------------------------------------------------------------
+
 ## 📊 Dataset Summary
 
 | Dataset | Size   | Features                     | Classes |
