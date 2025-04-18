@@ -69,6 +69,8 @@ cat("BIC score for EM_tSNE: ", em_tsne$bic, "\n")
 
 
 
+####################################################################################################3
+
 
 # Extract the losses from the EM algorithm results
 losses_pca <- em_pca$losses
